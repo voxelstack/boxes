@@ -1,0 +1,18 @@
+$dark: #213547;
+$light: #ffffff;
+
+:root {
+  color: $light;
+  background-color: $dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: $dark;
+    background-color: $light;
+  }
+}
+
+body {
+  margin: 0;
+}
