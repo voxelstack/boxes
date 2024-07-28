@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "endOfLine": "crlf",
+    "tabWidth": 4,
+    "printWidth": 80,
+    "trailingComma": "all",
+    "singleQuote": false,
+    "semi":true,
+    "importTypeOrder": ["NPMPackages", "localImportsType", "localImportsValue"],
+    "newlineBetweenTypes": true,
+    "sortingMethod": "alphabetical",
+    "plugins": ["./node_modules/prettier-plugin-sort-imports/dist/index.js"]
+}

@@ -1,6 +1,7 @@
-import { html, LitElement } from "lit";
-import { customElement } from "lit/decorators.js"
-import { styles } from "./button.styles"
+import { LitElement, html } from "lit";
+import { customElement } from "lit/decorators.js";
+
+import { styles } from "./button.styles";
 
 @customElement("bx-button")
 export class Button extends LitElement {

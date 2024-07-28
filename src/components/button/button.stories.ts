@@ -1,9 +1,9 @@
 import { html } from "lit";
 
-import './button';
+import "./button";
 
 export default {
-    title: 'Button',
+    title: "Button",
 };
 
 export const Primary = () => html`<bx-button>001-J</bx-button>`;
