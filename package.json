@@ -15,7 +15,8 @@
         "build:css-to-ts": "node ./scripts/css-to-ts.js ./src",
         "build": "build:sass && build:css-to-ts && vite build",
         "build:storybook": "storybook build",
-        "test": "wdio run ./wdio.conf.ts"
+        "test": "wdio run ./wdio.conf.ts",
+        "test:headless": "wdio run ./wdio-headless.conf.ts"
     },
     "devDependencies": {
         "@chromatic-com/storybook": "1.6.1",
