@@ -12,8 +12,8 @@
         "eslint": "eslint \"src/**/*.{ts,mdx}\"",
         "lint": "run-p stylelint prettier eslint",
         "build:sass": "sass . --no-source-map",
-        "build:css-to-ts": "node ./scripts/css-to-ts.js",
-        "build": "build:sass && build:css-to-ts ./src && tsc && vite build",
+        "build:css-to-ts": "node ./scripts/css-to-ts.js ./src",
+        "build": "build:sass && build:css-to-ts && vite build",
         "build:storybook": "storybook build",
         "test": "wdio run ./wdio.conf.ts"
     },
