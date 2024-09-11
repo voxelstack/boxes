@@ -1,9 +1,9 @@
-name: wdio
+name: test
 on: push
 
 jobs:
   test:
-    name: test
+    name: wdio
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
