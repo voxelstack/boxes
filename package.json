@@ -13,6 +13,7 @@
         "lint": "run-p stylelint prettier eslint",
         "build:sass": "sass . --no-source-map",
         "build:css-to-ts": "node ./scripts/css-to-ts.js ./src",
+        "build:styles": "run-s build:sass build:css-to-ts",
         "build": "build:sass && build:css-to-ts && vite build",
         "build:storybook": "storybook build",
         "test": "wdio run ./wdio.conf.ts",
