@@ -16,6 +16,7 @@
         "build:styles": "run-s build:sass build:css-to-ts",
         "build": "build:sass && build:css-to-ts && vite build",
         "build:storybook": "storybook build",
+        "build:pages": "run-s build:styles build:storybook",
         "test": "wdio run ./wdio.conf.ts",
         "test:headless": "wdio run ./wdio-headless.conf.ts"
     },
