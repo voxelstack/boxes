@@ -1,4 +1,8 @@
 {
+    "ignoreFiles": [
+        "*.lit.css",
+        "templates/**/*"
+    ],
     "extends": [
         "stylelint-config-standard-scss",
         "stylelint-config-clean-order"
