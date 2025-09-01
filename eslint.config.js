@@ -2,7 +2,7 @@
 
 import eslint from "@eslint/js";
 import pluginLit from "eslint-plugin-lit";
-import pluginMdx from "eslint-plugin-mdx";
+import * as pluginMdx from "eslint-plugin-mdx";
 import tseslint from "typescript-eslint";
 
 const ignores = ["src/components/**/*.styles.ts", "templates/"];
