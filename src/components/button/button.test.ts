@@ -1,7 +1,5 @@
 import { html, render } from "lit";
 
-import { $, expect } from "@wdio/globals";
-
 import "./button";
 
 describe("button", () => {

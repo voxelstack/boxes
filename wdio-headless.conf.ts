@@ -1,12 +1,10 @@
-import type { Options } from "@wdio/types";
-
 import { config as base } from "./wdio.conf";
 
-export const config: Options.Testrunner = {
+export const config: WebdriverIO.Config = {
     ...base,
+    maxInstances: 5,
     capabilities: [
         {
-            maxInstances: 5,
             browserName: "chrome",
             "goog:chromeOptions": {
                 args: [
