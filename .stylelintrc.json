@@ -1,14 +1,7 @@
 {
-    "ignoreFiles": [
-        "*.lit.css",
-        "templates/**/*"
-    ],
+    "ignoreFiles": ["*.lit.css", "templates/**/*"],
     "extends": [
         "stylelint-config-standard-scss",
         "stylelint-config-clean-order"
-    ],
-    "plugins": ["stylelint-prettier"],
-    "rule":{
-        "prettier/prettier": true
-    }
+    ]
 }
